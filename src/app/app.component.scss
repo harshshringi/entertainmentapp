@@ -1,0 +1,17 @@
+#profile {
+    background-color: aquamarine;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    float: right;
+    text-align: center;
+    line-height:50px;
+}
+
+.typeControl {
+    margin-bottom: 20px;
+}
+
+.transitionOut {
+    transition: scale(2);
+}

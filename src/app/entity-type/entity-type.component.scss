@@ -1,0 +1,36 @@
+.entityControls {
+    display: inline-block;
+    margin: 20px;
+}
+
+#typeMain {
+    background-color: aqua;
+    padding: 15px;
+}
+
+@keyframes tilein {
+    from {transform: translateX(100px);}
+    to {transform: translateX(0px);}
+}
+
+@keyframes enterUp {
+    from {transform: translateY(100px);}
+    to {transform: translateY(0px);}
+}
+
+/*This can be better done by staggering for the various number of components. Hard-coding the 2 components here for the sake of simplicity*/
+#amazon, #netflix {
+    animation: tilein 0.4s ease-in;
+}
+
+#netflix {
+    animation-duration: 0.4s;
+}
+
+.typeHeader {
+    animation: enterUp 0.2s ease-in-out;
+}
+
+.typeDetails {
+    animation: enterUp 0.2s ease-in;
+}
